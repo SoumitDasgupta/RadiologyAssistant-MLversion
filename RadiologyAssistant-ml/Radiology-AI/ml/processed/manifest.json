@@ -1,0 +1,4523 @@
+{
+  "classes": [
+    "No Finding",
+    "Pneumonia",
+    "Pleural Effusion",
+    "Cardiomegaly",
+    "Atelectasis"
+  ],
+  "image_size": 224,
+  "splits": {
+    "train": 840,
+    "val": 30,
+    "test": 30
+  },
+  "data": {
+    "train": [
+      {
+        "file": "000000_v0.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000000_v1.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000000_v2.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000000_v3.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000000_v4.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000000_v5.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000001_v0.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000001_v1.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000001_v2.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000001_v3.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000001_v4.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000001_v5.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000002_v0.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000002_v1.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000002_v2.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000002_v3.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000002_v4.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000002_v5.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000003_v0.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000003_v1.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000003_v2.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000003_v3.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000003_v4.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000003_v5.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000004_v0.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000004_v1.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000004_v2.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000004_v3.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000004_v4.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000004_v5.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000005_v0.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000005_v1.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000005_v2.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000005_v3.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000005_v4.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000005_v5.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000006_v0.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000006_v1.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000006_v2.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000006_v3.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000006_v4.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000006_v5.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000007_v0.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000007_v1.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000007_v2.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000007_v3.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000007_v4.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000007_v5.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000008_v0.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000008_v1.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000008_v2.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000008_v3.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000008_v4.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000008_v5.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000009_v0.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000009_v1.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000009_v2.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000009_v3.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000009_v4.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000009_v5.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000010_v0.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000010_v1.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000010_v2.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000010_v3.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000010_v4.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000010_v5.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000011_v0.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000011_v1.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000011_v2.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000011_v3.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000011_v4.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000011_v5.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000012_v0.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000012_v1.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000012_v2.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000012_v3.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000012_v4.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000012_v5.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000013_v0.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000013_v1.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000013_v2.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000013_v3.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000013_v4.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000013_v5.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000014_v0.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000014_v1.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000014_v2.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000014_v3.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000014_v4.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000014_v5.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000015_v0.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000015_v1.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000015_v2.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000015_v3.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000015_v4.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000015_v5.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000016_v0.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000016_v1.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000016_v2.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000016_v3.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000016_v4.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000016_v5.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000017_v0.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000017_v1.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000017_v2.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000017_v3.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000017_v4.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000017_v5.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000018_v0.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000018_v1.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000018_v2.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000018_v3.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000018_v4.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000018_v5.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000019_v0.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000019_v1.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000019_v2.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000019_v3.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000019_v4.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000019_v5.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000020_v0.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000020_v1.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000020_v2.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000020_v3.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000020_v4.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000020_v5.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000021_v0.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000021_v1.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000021_v2.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000021_v3.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000021_v4.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000021_v5.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000022_v0.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000022_v1.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000022_v2.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000022_v3.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000022_v4.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000022_v5.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000023_v0.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000023_v1.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000023_v2.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000023_v3.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000023_v4.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000023_v5.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000024_v0.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000024_v1.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000024_v2.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000024_v3.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000024_v4.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000024_v5.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000025_v0.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000025_v1.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000025_v2.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000025_v3.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000025_v4.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000025_v5.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000026_v0.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000026_v1.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000026_v2.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000026_v3.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000026_v4.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000026_v5.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000027_v0.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000027_v1.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000027_v2.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000027_v3.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000027_v4.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000027_v5.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000028_v0.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000028_v1.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000028_v2.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000028_v3.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000028_v4.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000028_v5.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000029_v0.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000029_v1.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000029_v2.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000029_v3.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000029_v4.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000029_v5.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000030_v0.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000030_v1.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000030_v2.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000030_v3.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000030_v4.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000030_v5.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000031_v0.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000031_v1.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000031_v2.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000031_v3.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000031_v4.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000031_v5.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000032_v0.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000032_v1.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000032_v2.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000032_v3.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000032_v4.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000032_v5.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000033_v0.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000033_v1.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000033_v2.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000033_v3.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000033_v4.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000033_v5.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000034_v0.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000034_v1.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000034_v2.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000034_v3.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000034_v4.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000034_v5.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000035_v0.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000035_v1.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000035_v2.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000035_v3.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000035_v4.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000035_v5.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000036_v0.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000036_v1.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000036_v2.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000036_v3.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000036_v4.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000036_v5.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000037_v0.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000037_v1.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000037_v2.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000037_v3.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000037_v4.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000037_v5.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000038_v0.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000038_v1.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000038_v2.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000038_v3.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000038_v4.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000038_v5.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000039_v0.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000039_v1.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000039_v2.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000039_v3.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000039_v4.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000039_v5.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000040_v0.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000040_v1.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000040_v2.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000040_v3.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000040_v4.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000040_v5.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000041_v0.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000041_v1.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000041_v2.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000041_v3.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000041_v4.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000041_v5.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000042_v0.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000042_v1.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000042_v2.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000042_v3.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000042_v4.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000042_v5.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000043_v0.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000043_v1.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000043_v2.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000043_v3.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000043_v4.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000043_v5.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000044_v0.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000044_v1.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000044_v2.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000044_v3.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000044_v4.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000044_v5.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000045_v0.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000045_v1.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000045_v2.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000045_v3.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000045_v4.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000045_v5.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000046_v0.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000046_v1.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000046_v2.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000046_v3.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000046_v4.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000046_v5.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000047_v0.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000047_v1.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000047_v2.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000047_v3.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000047_v4.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000047_v5.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000048_v0.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000048_v1.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000048_v2.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000048_v3.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000048_v4.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000048_v5.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000049_v0.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000049_v1.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000049_v2.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000049_v3.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000049_v4.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000049_v5.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000050_v0.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000050_v1.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000050_v2.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000050_v3.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000050_v4.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000050_v5.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000051_v0.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000051_v1.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000051_v2.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000051_v3.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000051_v4.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000051_v5.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000052_v0.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000052_v1.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000052_v2.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000052_v3.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000052_v4.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000052_v5.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000053_v0.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000053_v1.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000053_v2.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000053_v3.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000053_v4.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000053_v5.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000054_v0.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000054_v1.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000054_v2.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000054_v3.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000054_v4.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000054_v5.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000055_v0.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000055_v1.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000055_v2.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000055_v3.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000055_v4.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000055_v5.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000056_v0.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000056_v1.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000056_v2.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000056_v3.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000056_v4.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000056_v5.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000057_v0.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000057_v1.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000057_v2.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000057_v3.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000057_v4.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000057_v5.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000058_v0.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000058_v1.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000058_v2.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000058_v3.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000058_v4.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000058_v5.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000059_v0.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000059_v1.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000059_v2.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000059_v3.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000059_v4.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000059_v5.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000060_v0.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000060_v1.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000060_v2.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000060_v3.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000060_v4.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000060_v5.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000061_v0.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000061_v1.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000061_v2.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000061_v3.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000061_v4.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000061_v5.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000062_v0.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000062_v1.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000062_v2.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000062_v3.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000062_v4.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000062_v5.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000063_v0.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000063_v1.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000063_v2.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000063_v3.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000063_v4.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000063_v5.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000064_v0.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000064_v1.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000064_v2.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000064_v3.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000064_v4.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000064_v5.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000065_v0.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000065_v1.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000065_v2.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000065_v3.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000065_v4.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000065_v5.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000066_v0.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000066_v1.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000066_v2.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000066_v3.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000066_v4.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000066_v5.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000067_v0.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000067_v1.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000067_v2.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000067_v3.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000067_v4.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000067_v5.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000068_v0.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000068_v1.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000068_v2.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000068_v3.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000068_v4.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000068_v5.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000069_v0.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000069_v1.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000069_v2.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000069_v3.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000069_v4.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000069_v5.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000070_v0.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000070_v1.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000070_v2.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000070_v3.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000070_v4.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000070_v5.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000071_v0.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000071_v1.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000071_v2.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000071_v3.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000071_v4.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000071_v5.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000072_v0.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000072_v1.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000072_v2.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000072_v3.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000072_v4.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000072_v5.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000073_v0.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000073_v1.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000073_v2.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000073_v3.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000073_v4.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000073_v5.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000074_v0.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000074_v1.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000074_v2.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000074_v3.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000074_v4.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000074_v5.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000075_v0.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000075_v1.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000075_v2.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000075_v3.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000075_v4.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000075_v5.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000076_v0.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000076_v1.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000076_v2.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000076_v3.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000076_v4.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000076_v5.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000077_v0.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000077_v1.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000077_v2.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000077_v3.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000077_v4.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000077_v5.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000078_v0.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000078_v1.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000078_v2.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000078_v3.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000078_v4.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000078_v5.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000079_v0.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000079_v1.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000079_v2.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000079_v3.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000079_v4.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000079_v5.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000080_v0.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000080_v1.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000080_v2.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000080_v3.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000080_v4.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000080_v5.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000081_v0.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000081_v1.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000081_v2.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000081_v3.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000081_v4.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000081_v5.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000082_v0.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000082_v1.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000082_v2.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000082_v3.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000082_v4.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000082_v5.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000083_v0.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000083_v1.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000083_v2.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000083_v3.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000083_v4.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000083_v5.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000084_v0.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000084_v1.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000084_v2.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000084_v3.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000084_v4.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000084_v5.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000085_v0.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000085_v1.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000085_v2.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000085_v3.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000085_v4.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000085_v5.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000086_v0.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000086_v1.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000086_v2.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000086_v3.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000086_v4.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000086_v5.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000087_v0.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000087_v1.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000087_v2.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000087_v3.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000087_v4.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000087_v5.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000088_v0.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000088_v1.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000088_v2.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000088_v3.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000088_v4.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000088_v5.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000089_v0.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000089_v1.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000089_v2.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000089_v3.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000089_v4.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000089_v5.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000090_v0.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000090_v1.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000090_v2.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000090_v3.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000090_v4.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000090_v5.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000091_v0.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000091_v1.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000091_v2.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000091_v3.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000091_v4.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000091_v5.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000092_v0.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000092_v1.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000092_v2.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000092_v3.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000092_v4.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000092_v5.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000093_v0.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000093_v1.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000093_v2.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000093_v3.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000093_v4.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000093_v5.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000094_v0.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000094_v1.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000094_v2.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000094_v3.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000094_v4.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000094_v5.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000095_v0.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000095_v1.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000095_v2.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000095_v3.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000095_v4.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000095_v5.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000096_v0.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000096_v1.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000096_v2.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000096_v3.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000096_v4.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000096_v5.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000097_v0.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000097_v1.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000097_v2.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000097_v3.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000097_v4.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000097_v5.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000098_v0.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000098_v1.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000098_v2.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000098_v3.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000098_v4.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000098_v5.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000099_v0.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000099_v1.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000099_v2.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000099_v3.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000099_v4.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000099_v5.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000100_v0.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000100_v1.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000100_v2.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000100_v3.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000100_v4.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000100_v5.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000101_v0.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000101_v1.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000101_v2.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000101_v3.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000101_v4.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000101_v5.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000102_v0.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000102_v1.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000102_v2.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000102_v3.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000102_v4.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000102_v5.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000103_v0.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000103_v1.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000103_v2.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000103_v3.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000103_v4.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000103_v5.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000104_v0.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000104_v1.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000104_v2.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000104_v3.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000104_v4.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000104_v5.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000105_v0.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000105_v1.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000105_v2.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000105_v3.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000105_v4.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000105_v5.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000106_v0.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000106_v1.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000106_v2.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000106_v3.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000106_v4.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000106_v5.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000107_v0.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000107_v1.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000107_v2.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000107_v3.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000107_v4.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000107_v5.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000108_v0.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000108_v1.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000108_v2.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000108_v3.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000108_v4.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000108_v5.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000109_v0.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000109_v1.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000109_v2.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000109_v3.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000109_v4.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000109_v5.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000110_v0.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000110_v1.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000110_v2.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000110_v3.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000110_v4.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000110_v5.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000111_v0.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000111_v1.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000111_v2.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000111_v3.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000111_v4.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000111_v5.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000112_v0.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000112_v1.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000112_v2.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000112_v3.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000112_v4.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000112_v5.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000113_v0.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000113_v1.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000113_v2.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000113_v3.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000113_v4.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000113_v5.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000114_v0.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000114_v1.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000114_v2.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000114_v3.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000114_v4.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000114_v5.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000115_v0.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000115_v1.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000115_v2.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000115_v3.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000115_v4.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000115_v5.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000116_v0.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000116_v1.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000116_v2.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000116_v3.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000116_v4.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000116_v5.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000117_v0.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000117_v1.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000117_v2.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000117_v3.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000117_v4.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000117_v5.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000118_v0.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000118_v1.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000118_v2.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000118_v3.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000118_v4.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000118_v5.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000119_v0.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000119_v1.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000119_v2.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000119_v3.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000119_v4.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000119_v5.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000120_v0.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000120_v1.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000120_v2.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000120_v3.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000120_v4.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000120_v5.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000121_v0.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000121_v1.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000121_v2.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000121_v3.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000121_v4.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000121_v5.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000122_v0.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000122_v1.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000122_v2.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000122_v3.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000122_v4.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000122_v5.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000123_v0.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000123_v1.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000123_v2.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000123_v3.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000123_v4.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000123_v5.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000124_v0.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000124_v1.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000124_v2.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000124_v3.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000124_v4.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000124_v5.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000125_v0.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000125_v1.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000125_v2.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000125_v3.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000125_v4.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000125_v5.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000126_v0.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000126_v1.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000126_v2.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000126_v3.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000126_v4.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000126_v5.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000127_v0.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000127_v1.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000127_v2.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000127_v3.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000127_v4.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000127_v5.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000128_v0.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000128_v1.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000128_v2.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000128_v3.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000128_v4.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000128_v5.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000129_v0.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000129_v1.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000129_v2.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000129_v3.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000129_v4.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000129_v5.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000130_v0.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000130_v1.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000130_v2.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000130_v3.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000130_v4.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000130_v5.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000131_v0.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000131_v1.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000131_v2.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000131_v3.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000131_v4.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000131_v5.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000132_v0.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000132_v1.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000132_v2.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000132_v3.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000132_v4.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000132_v5.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000133_v0.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000133_v1.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000133_v2.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000133_v3.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000133_v4.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000133_v5.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000134_v0.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000134_v1.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000134_v2.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000134_v3.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000134_v4.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000134_v5.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000135_v0.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000135_v1.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000135_v2.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000135_v3.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000135_v4.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000135_v5.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000136_v0.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000136_v1.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000136_v2.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000136_v3.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000136_v4.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000136_v5.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000137_v0.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000137_v1.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000137_v2.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000137_v3.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000137_v4.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000137_v5.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000138_v0.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000138_v1.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000138_v2.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000138_v3.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000138_v4.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000138_v5.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000139_v0.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000139_v1.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000139_v2.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000139_v3.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000139_v4.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000139_v5.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      }
+    ],
+    "val": [
+      {
+        "file": "000000_v0.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000001_v0.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000002_v0.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000003_v0.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000004_v0.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000005_v0.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000006_v0.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000007_v0.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000008_v0.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000009_v0.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000010_v0.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000011_v0.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000012_v0.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000013_v0.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000014_v0.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000015_v0.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000016_v0.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000017_v0.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000018_v0.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000019_v0.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000020_v0.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000021_v0.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000022_v0.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000023_v0.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000024_v0.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000025_v0.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000026_v0.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000027_v0.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000028_v0.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000029_v0.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      }
+    ],
+    "test": [
+      {
+        "file": "000000_v0.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000001_v0.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000002_v0.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000003_v0.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000004_v0.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000005_v0.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000006_v0.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000007_v0.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000008_v0.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000009_v0.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000010_v0.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000011_v0.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000012_v0.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000013_v0.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000014_v0.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000015_v0.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000016_v0.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000017_v0.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000018_v0.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000019_v0.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000020_v0.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000021_v0.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000022_v0.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      },
+      {
+        "file": "000023_v0.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000024_v0.npy",
+        "label": "Cardiomegaly",
+        "class_id": 3
+      },
+      {
+        "file": "000025_v0.npy",
+        "label": "No Finding",
+        "class_id": 0
+      },
+      {
+        "file": "000026_v0.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000027_v0.npy",
+        "label": "Pneumonia",
+        "class_id": 1
+      },
+      {
+        "file": "000028_v0.npy",
+        "label": "Atelectasis",
+        "class_id": 4
+      },
+      {
+        "file": "000029_v0.npy",
+        "label": "Pleural Effusion",
+        "class_id": 2
+      }
+    ]
+  }
+}

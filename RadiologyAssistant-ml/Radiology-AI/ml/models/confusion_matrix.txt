@@ -1,0 +1,14 @@
+Confusion Matrix
+============================================================================
+
+Predicted →
+              No Finding   PneumoniaPleural EffuCardiomegaly Atelectasis
+----------------------------------------------------------------------------
+No Finding│          0 ✓           0           0           2           2
+Pneumonia │            2         3 ✓           0           3           0
+Pleural Ef│            1           2         0 ✓           1           2
+Cardiomega│            0           3           0         4 ✓           0
+Atelectasi│            1           0           0           3         1 ✓
+
+Rows = Actual class | Columns = Predicted class
+✓ marks correct predictions (diagonal)

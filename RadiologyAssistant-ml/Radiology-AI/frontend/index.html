@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Radiology Assistant</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="dark">
+
+<!-- ═══════════════════════════════════════════════════════
+     LOGIN PAGE
+═══════════════════════════════════════════════════════ -->
+<div id="loginPage">
+  <nav class="login-nav">
+    <div class="brand">
+      <div class="logo-box">RX</div>
+      <span class="brand-name">AI Radiology Assistant</span>
+    </div>
+    <div class="login-nav-links">
+      <a href="#">About</a>
+      <a href="#">Features</a>
+      <a href="#">Pricing</a>
+      <span class="online-badge">● ONLINE</span>
+    </div>
+  </nav>
+
+  <div class="login-body">
+    <div class="login-features">
+      <div class="feat-pill"><span class="feat-icon">⊕</span> AI Image Analysis</div>
+      <div class="feat-pill"><span class="feat-icon gem-icon">✦</span> Gemini AI</div>
+      <div class="feat-pill"><span class="feat-icon">🛡</span> HIPAA Compliant</div>
+      <div class="feat-pill"><span class="feat-icon">⚡</span> Real-time Insights</div>
+    </div>
+
+    <div class="login-card">
+      <div class="login-brand">
+        <div class="logo-box">RX</div>
+        <div>
+          <div class="login-title">AI Radiology Assistant</div>
+          <div class="login-sub">Gemini AI · Firebase</div>
+        </div>
+      </div>
+
+      <h2 class="welcome">Welcome back</h2>
+      <p class="welcome-sub">Sign in to your account to continue</p>
+
+      <div class="role-tabs">
+        <button class="role-tab active" onclick="setRole(this,'doctor')">Doctor / Staff</button>
+        <button class="role-tab" onclick="setRole(this,'patient')">Patient</button>
+      </div>
+
+      <label class="field-label">EMAIL ADDRESS</label>
+      <div class="input-wrap">
+        <span class="input-icon">✉</span>
+        <input type="email" id="loginEmail" placeholder="you@hospital.org" />
+      </div>
+
+      <label class="field-label">PASSWORD</label>
+      <div class="input-wrap">
+        <span class="input-icon">🔒</span>
+        <input type="password" id="loginPassword" placeholder="••••••••••••" />
+        <span class="toggle-pw" onclick="togglePw()">👁</span>
+      </div>
+
+      <div class="remember-row">
+        <label><input type="checkbox" checked /> Remember me</label>
+        <a href="#" class="forgot">Forgot password?</a>
+      </div>
+
+      <button class="btn-signin" onclick="doLogin()">➔ Sign In</button>
+
+      <div class="or-divider"><span>or</span></div>
+
+      <button class="btn-hospital">🏥 Continue with Hospital ID</button>
+
+      <p class="create-acc">Don't have an account? <a href="#" class="teal-link">Create one</a></p>
+    </div>
+  </div>
+
+  <footer class="login-footer">
+    By signing in, you agree to our <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>
+  </footer>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════
+     MAIN APP PAGE
+═══════════════════════════════════════════════════════ -->
+<div id="appPage" style="display:none;">
+
+  <!-- TOP NAV -->
+  <header class="top-nav">
+    <div class="nav-left">
+      <div class="logo-box small">RX</div>
+      <div class="nav-brand-text">
+        <span class="nav-title">AI Radiology Assistant</span>
+        <span class="nav-sub">Gemini AI · Firebase</span>
+      </div>
+    </div>
+
+    <div class="nav-tabs">
+      <button class="vtab active" onclick="setTab(this,'viewer')">⊞ Viewer</button>
+      <button class="vtab" onclick="setTab(this,'chat')">💬 Chat</button>
+      <button class="vtab" onclick="setTab(this,'dashboard')">⊟ Dashboard</button>
+    </div>
+
+    <div class="nav-actions">
+      <button class="nav-btn" onclick="analyzeImage()">⊕ Analyze</button>
+      <button class="nav-btn" onclick="resetView()">↺ Reset</button>
+      <button class="nav-btn" onclick="toggleHalf()">▐ Half</button>
+      <button class="nav-btn" onclick="toggleInvert()">◑ Invert</button>
+      <button class="nav-btn" onclick="togglePoints()">⊙ Points</button>
+    </div>
+
+    <div class="nav-right">
+      <button class="theme-btn" onclick="toggleTheme()">☀ Light</button>
+      <button class="export-btn">↓ Export</button>
+      <button class="logout-btn" onclick="logout()">⎋ Logout</button>
+      <span class="online-badge">● ONLINE</span>
+    </div>
+  </header>
+
+  <!-- Tab panels -->
+  <div id="viewerTab" class="tab-panel active">
+  <div class="app-body">
+
+    <!-- LEFT SIDEBAR -->
+    <aside class="sidebar">
+
+      <section class="sidebar-section">
+        <div class="section-label">IMAGES</div>
+        <button class="btn-load" onclick="document.getElementById('imageInput').click()">
+          ↑ Load Image(s)
+        </button>
+        <input type="file" id="imageInput" accept="image/*,.dcm" style="display:none" />
+      </section>
+
+      <section class="sidebar-section">
+        <div class="section-label">ADJUSTMENTS</div>
+        <div class="slider-row">
+          <span>Brightness</span><span id="brightnessVal" class="slider-val teal">0</span>
+        </div>
+        <input type="range" min="-100" max="100" value="0" id="brightness" class="slider teal-thumb" oninput="applyFilters()" />
+
+        <div class="slider-row">
+          <span>Contrast</span><span id="contrastVal" class="slider-val purple">0</span>
+        </div>
+        <input type="range" min="-100" max="100" value="0" id="contrast" class="slider purple-thumb" oninput="applyFilters()" />
+
+        <div class="slider-row">
+          <span>Sharpness</span><span id="sharpnessVal" class="slider-val orange">0</span>
+        </div>
+        <input type="range" min="-100" max="100" value="0" id="sharpness" class="slider orange-thumb" oninput="applyFilters()" />
+
+        <button class="btn-reset-small" onclick="resetSliders()">↺ Reset</button>
+      </section>
+
+      <section class="sidebar-section">
+        <div class="section-label">WINDOW PRESETS</div>
+        <div class="presets-grid">
+          <button class="preset active" onclick="setPreset(this,'default')">Default</button>
+          <button class="preset" onclick="setPreset(this,'invert')">Invert</button>
+          <button class="preset" onclick="setPreset(this,'bone')">Bone</button>
+          <button class="preset" onclick="setPreset(this,'lung')">Lung</button>
+          <button class="preset" onclick="setPreset(this,'softtissue')">Soft Tissue</button>
+          <button class="preset" onclick="setPreset(this,'vascular')">Vascular</button>
+        </div>
+      </section>
+
+      <section class="sidebar-section">
+        <div class="section-label">AI ANALYSIS</div>
+        <div class="ai-status-box" id="aiStatusBox">Load an image to begin analysis.</div>
+      </section>
+
+      <button class="btn-analyze" id="analyzeBtn" onclick="analyzeImage()">
+        <span>⊕</span> Analyze with Gemini AI
+      </button>
+
+      <section class="sidebar-section">
+        <div class="section-label">RECENT ANALYSES</div>
+        <div id="recentList">
+          <div class="recent-item">
+            <span class="dot orange"></span>
+            <div>
+              <div class="recent-name">chest_xray_001.jpg <span class="recent-time">2m ago</span></div>
+              <div class="recent-desc">Load an image and analyze to see results here.</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </aside>
+
+    <!-- CENTER VIEWER -->
+    <main class="viewer-area">
+
+      <!-- Drop zone -->
+      <div id="dropZone" class="drop-zone" onclick="document.getElementById('imageInput').click()">
+        <div class="drop-icon">⊕</div>
+        <div class="drop-text">Click or drag & drop to load image</div>
+        <div class="drop-sub">Supports JPEG, PNG, DICOM</div>
+      </div>
+
+      <!-- Image container -->
+      <div id="imgContainer" style="display:none; position:relative; flex:1; overflow:hidden; display:none; align-items:center; justify-content:center;">
+        <img id="preview" src="" alt="Radiology Image" class="preview-img" />
+        <div id="annotations" class="annotations-layer"></div>
+      </div>
+
+      <!-- Bottom toolbar -->
+      <div class="viewer-toolbar">
+        <div class="tools-left">
+          <button class="tool-btn active" onclick="setTool(this,'select')">⊹ Select</button>
+          <button class="tool-btn" onclick="setTool(this,'pan')">✥ Pan</button>
+          <button class="tool-btn" onclick="setTool(this,'annotate')">✏ Annotate</button>
+          <button class="tool-btn" onclick="setTool(this,'ruler')">↔ Ruler</button>
+        </div>
+        <div class="tools-right">
+          <button class="tool-btn" onclick="zoomOut()">⊖</button>
+          <span class="zoom-display" id="zoomLevel">100%</span>
+          <button class="tool-btn" onclick="zoomIn()">⊕</button>
+          <button class="tool-btn" onclick="fitView()">⊡ Fit</button>
+          <button class="tool-btn" onclick="clearAnnotations()">✕ Clear Annotations</button>
+        </div>
+      </div>
+
+      <!-- Status bar -->
+      <div class="status-bar">
+        <span id="fileInfo">FILE — </span>
+        <span id="sizeInfo">SIZE — </span>
+        <span id="dimsInfo">DIMS — </span>
+        <span id="zoomInfo">ZOOM — 100%</span>
+        <span id="presetInfo">PRESET — Default</span>
+      </div>
+    </main>
+
+    <!-- RIGHT PANEL -->
+    <aside class="right-panel">
+      <div class="panel-header">
+        <span class="panel-title">AI Analysis</span>
+        <span class="gem-badge">✦ Gemini AI</span>
+      </div>
+
+      <!-- Confidence -->
+      <div id="confidenceBlock" style="display:none;" class="confidence-block">
+        <div class="conf-row">
+          <span class="conf-label">Analysis Confidence</span>
+          <span class="conf-pct teal" id="confidencePct">0%</span>
+        </div>
+        <div class="conf-bar-bg">
+          <div class="conf-bar-fill" id="confidenceBar" style="width:0%"></div>
+        </div>
+        <div class="conf-model">Model: Gemini 2.5 Flash</div>
+      </div>
+
+      <!-- Summary -->
+      <div id="summarySection" style="display:none;" class="panel-section">
+        <div class="section-label">SUMMARY</div>
+        <div class="summary-box" id="summaryText"></div>
+      </div>
+
+      <!-- Findings -->
+      <div id="findingsSection" style="display:none;" class="panel-section">
+        <div class="section-label">FINDINGS</div>
+        <div id="findingsList"></div>
+      </div>
+
+      <!-- Recommendations -->
+      <div id="recsSection" style="display:none;" class="panel-section">
+        <div class="section-label">RECOMMENDATIONS</div>
+        <ul id="recsList" class="recs-list"></ul>
+      </div>
+
+      <!-- Empty state -->
+      <div id="emptyState" class="empty-state">
+        <div class="empty-icon">⊕</div>
+        <div>Load an image and click Analyze to see AI findings here.</div>
+      </div>
+
+      <div class="panel-footer">
+        <button class="btn-report" onclick="generateReport()">📋 Generate Report</button>
+        <button class="btn-ask" onclick="askAI()">💬 Ask AI about findings</button>
+      </div>
+    </aside>
+
+  </div><!-- end app-body -->
+  </div><!-- end viewerTab -->
+
+  <!-- CHAT TAB -->
+  <div id="chatTab" class="tab-panel" style="display:none;">
+    <div class="chat-container">
+      <div class="chat-messages" id="chatMessages">
+        <div class="chat-welcome">
+          <div class="chat-welcome-icon">💬</div>
+          <div class="chat-welcome-title">AI Radiology Chat</div>
+          <div class="chat-welcome-sub">Ask questions about radiology findings, techniques, or upload an image for AI-assisted analysis.</div>
+        </div>
+      </div>
+      <div class="chat-input-area">
+        <div class="chat-input-wrap">
+          <textarea id="chatInput" class="chat-textarea" placeholder="Ask about radiology findings, imaging techniques, or anything medical imaging related…" rows="1" onkeydown="chatKeydown(event)"></textarea>
+          <button class="chat-send-btn" onclick="sendChatMessage()">➔ Send</button>
+        </div>
+        <div class="chat-hint">Press Enter to send · Shift+Enter for new line · Powered by Claude AI</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- DASHBOARD TAB -->
+  <div id="dashboardTab" class="tab-panel" style="display:none;">
+    <div class="dashboard-container">
+      <div class="dashboard-header">
+        <div class="dashboard-title">Analysis Dashboard</div>
+        <button class="dash-refresh-btn" onclick="loadDashboard()">↺ Refresh</button>
+      </div>
+      <div class="dash-stats-row" id="dashStats">
+        <div class="dash-stat-card">
+          <div class="dash-stat-num teal" id="statTotal">—</div>
+          <div class="dash-stat-label">Total Analyses</div>
+        </div>
+        <div class="dash-stat-card">
+          <div class="dash-stat-num orange" id="statAvgConf">—</div>
+          <div class="dash-stat-label">Avg Confidence</div>
+        </div>
+        <div class="dash-stat-card">
+          <div class="dash-stat-num purple" id="statLatest">—</div>
+          <div class="dash-stat-label">Latest Analysis</div>
+        </div>
+      </div>
+      <div class="dash-section-label">RECENT REPORTS</div>
+      <div id="dashReportsList" class="dash-reports-list">
+        <div class="dash-empty">No analyses yet. Load an image and click Analyze to get started.</div>
+      </div>
+    </div>
+  </div>
+
+<!-- REPORT DETAIL MODAL -->
+<div id="reportModal" class="modal-overlay" style="display:none;" onclick="closeReportModal(event)">
+  <div class="modal-box">
+    <div class="modal-header">
+      <div class="modal-title-row">
+        <span class="modal-filename" id="modalFilename">—</span>
+        <span class="modal-conf-badge" id="modalConfBadge">—</span>
+      </div>
+      <button class="modal-close-btn" onclick="closeReportModal()">✕</button>
+    </div>
+
+    <div class="modal-body">
+      <div class="modal-section">
+        <div class="modal-section-label">CLINICAL IMPRESSION</div>
+        <div class="modal-impression" id="modalImpression">—</div>
+      </div>
+
+      <div class="modal-section">
+        <div class="modal-section-label">FINDINGS</div>
+        <div class="modal-findings" id="modalFindings">—</div>
+      </div>
+
+      <div class="modal-section">
+        <div class="modal-section-label">RECOMMENDATIONS</div>
+        <div class="modal-recs" id="modalRecs">—</div>
+      </div>
+    </div>
+
+    <div class="modal-footer">
+      <span class="modal-report-id" id="modalReportId"></span>
+      <button class="modal-export-btn" id="modalExportBtn">↓ Export Report</button>
+    </div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

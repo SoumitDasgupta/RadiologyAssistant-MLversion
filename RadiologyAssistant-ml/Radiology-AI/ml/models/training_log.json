@@ -1,0 +1,43 @@
+{
+  "config": {
+    "epochs": 3,
+    "batch_size": 16,
+    "learning_rate": 0.0001,
+    "device": "cpu",
+    "classes": [
+      "No Finding",
+      "Pneumonia",
+      "Pleural Effusion",
+      "Cardiomegaly",
+      "Atelectasis"
+    ]
+  },
+  "best_val_acc": 20.0,
+  "test_acc": 26.67,
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_loss": 1.5369,
+      "train_acc": 33.33,
+      "val_loss": 1.6781,
+      "val_acc": 20.0,
+      "time_sec": 523.3
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.8918,
+      "train_acc": 76.55,
+      "val_loss": 1.8176,
+      "val_acc": 13.33,
+      "time_sec": 430.7
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.405,
+      "train_acc": 92.62,
+      "val_loss": 2.0366,
+      "val_acc": 10.0,
+      "time_sec": 425.3
+    }
+  ]
+}

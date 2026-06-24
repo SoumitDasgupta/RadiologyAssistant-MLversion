@@ -21,7 +21,7 @@ the full pipeline works end to end. Real training uses CheXpert
 ### Step 1 — Create demo training data
 **Command:**
 ```
-python step1_download_data.py --demo
+py step1_download_data.py --demo
 ```
 
 **What happened:**
@@ -42,7 +42,7 @@ committing to a large download.
 ### Step 2 — Preprocess the images
 **Command:**
 ```
-python step2_preprocess.py --demo
+py step2_preprocess.py --demo
 ```
 
 **What happened:**
@@ -62,7 +62,7 @@ python step2_preprocess.py --demo
 ### Step 3 — Train the model
 **Command:**
 ```
-python step3_train.py --demo
+py step3_train.py --demo
 ```
 
 **What happened:**
@@ -88,7 +88,7 @@ python step3_train.py --demo
 ### Step 4 — Evaluate the model
 **Command:**
 ```
-python step4_evaluate.py --demo
+py step4_evaluate.py --demo
 ```
 
 **What happened:**
@@ -116,7 +116,7 @@ false alarm.
 ### Step 5 — Replace Gemini with the ML model
 **Command:**
 ```
-python step5_replace_gemini.py --test ../uploads/test.jpg
+py step5_replace_gemini.py --test ../uploads/test.jpg
 ```
 
 **What happened:**

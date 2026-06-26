@@ -1,2 +1,2 @@
-25/06/2026 : Only demo data (ambiguous data forms/images) have been used for lung-based xrays only specifically for Pneumonia. Confidence and accuracy ranging at 30-35% and 20-25% respectively.
+25/06/2026 : Only demo data(500MB) (ambiguous data forms/images) have been used for lung-based xrays only specifically for Pneumonia. Confidence and accuracy ranging at 30-35% and 20-25% respectively.
 26/06/2026 : 
